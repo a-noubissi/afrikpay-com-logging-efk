@@ -32,7 +32,6 @@ services:
 
   # kibana:
   #   image: docker.elastic.co/kibana/kibana:7.13.1
-  #   links:
-  #     - "elasticsearch"
+  #   container_name: kibana
   #   ports:
   #     - "5601:5601"
